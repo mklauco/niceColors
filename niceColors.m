@@ -13,7 +13,7 @@ function niceColors(where)
 % Avaialable colors:
 %
 %
-% BLACK, BLUE, BLUE_L, BURGUNDY, GREEN, GREEN_D, GREEN_L, GREY, ORANGE,
+% BLACK, BLUE, BLUE_L, BURGUNDY, GREEN, GREEN_D, GREEN_L, GREY, GREY_L, ORANGE,
 % PINK, RED, TEAL, WHITE, YELLOW  
 
 %%
@@ -41,8 +41,12 @@ BLACK    = [0,0,0]/255;
 RED      = [230, 0, 0]/255;
 WHITE    = [255, 255, 255]/255;
 GREY     = [90, 90, 90]/255;
+GREY_L   = [90, 90, 90]*2/255;
 TEAL     = [50,208,211]/255;
 CYAN     = [128,255,255]/255;
+BLUE_G   = [82,135,241]/255;
+YELLOW_G = [243,187,43]/255;
+GREEN_G  = [75,167,86]/255;
 
 assignin(workspace, 'YELLOW', YELLOW)
 assignin(workspace, 'PINK', PINK)
@@ -57,6 +61,10 @@ assignin(workspace, 'BLACK', BLACK)
 assignin(workspace, 'RED', RED)
 assignin(workspace, 'WHITE', WHITE)
 assignin(workspace, 'GREY', GREY)
+assignin(workspace, 'GREY_L', GREY_L)
 assignin(workspace, 'TEAL', TEAL)
 assignin(workspace, 'CYAN', CYAN)
+assignin(workspace, 'BLUE_G', BLUE_G)
+assignin(workspace, 'YELLOW_G', YELLOW_G)
+assignin(workspace, 'GREEN_G', GREEN_G)
 end
